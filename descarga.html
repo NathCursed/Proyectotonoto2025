@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ez Download</title>
+  <title>Descarga de Archivo - Ez Download</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -24,23 +24,19 @@
       top: 0;
       z-index: 100;
     }
-    
-
     .navbar a {
       color: #fff;
       text-decoration: none;
       padding: 18px 28px;
       font-weight: 500;
       font-size: 1.1em;
-      transition: background 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s; /* Añadido */
+      transition: background 0.2s, color 0.2s;
       border-bottom: 3px solid transparent;
     }
     .navbar a:hover {
       background: #283593;
       color: #ffffff;
       border-bottom: 3px solid #ffffff;
-      transform: translateY(-4px) scale(1.07); /* Animación de elevación y zoom */
-      box-shadow: 0 4px 16px rgba(40,53,147,0.18); /* Sombra suave */
     }
     .container {
       max-width: 900px;
@@ -78,6 +74,8 @@
       cursor: pointer;
       margin: 18px 0 10px 0;
       transition: background 0.2s;
+      display: inline-block;
+      text-decoration: none;
     }
     .btn-descargar:hover {
       background: #1a237e;
@@ -102,45 +100,30 @@
 </head>
 <body>
   <nav class="navbar">
-    <a href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\versiones.html" target="_blank" rel="noopener noreferrer">Versiones</a>
-    <a href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\links.html" target="_blank" rel="noopener noreferrer">Links</a>
-    <a href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\avances.html" target="_blank" rel="noopener noreferrer">Avances</a>
-    <a href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\aplicacion.html" target="_blank" rel="noopener noreferrer">Aplicación</a>
-    <a href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\descarga.html" target="_blank" rel="noopener noreferrer">Descarga</a>
-  <a href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\descargador.html" target="_blank" rel="noopener noreferrer">Descargador</a>
+    <a href="index.html">Inicio</a>
+    <a href="https://tuversion.com" target="_blank" rel="noopener noreferrer">Versiones</a>
+    <a href="https://tulink.com" target="_blank" rel="noopener noreferrer">Links</a>
+    <a href="https://tuavance.com" target="_blank" rel="noopener noreferrer">Avances</a>
+    <a href="https://tuaplicacion.com" target="_blank" rel="noopener noreferrer">Aplicación</a>
   </nav>
   <div class="container">
     <div class="centrado">
-      <h1>EZ DOWNLOAD</h1>
-      <p><strong>Sitio oficial de Ez Download</strong></p>
-      <p>Descarga diferentes tipos de archivos, incluidos MP3 y MP4.</p>
-      <p>Descarga la aplicación o hazlo desde nuestra página web.</p>
-      <button class="btn-descargar" onclick="window.open('C:\\Users\\Nath Mendoza\\Desktop\\proyecto avanzo junio\\descarga.html')">Descargar Ahora</button>
-      <p style="margin-top:10px; color:#888;">Página oficial de Ez Download</p>
+      <h1>Descarga tu archivo</h1>
+      <p><strong>Selecciona el formato que deseas descargar:</strong></p>
+      <a class="btn-descargar" href="https://www.mediafire.com/folder/ynyowb06l3m9z/EzDownload" download>Descargar Mediafire</a>
+      <a class="btn-descargar" href="C:\Users\Nath Mendoza\Desktop\proyecto avanzo junio\resources\EzDownload\EzDownload\main.mp4" download>Descarga Directa</a>
+      <a class="btn-descargar" href="https://www.mediafire.com/file/6165xunoxx1ak9b/EzDownload.zip/file" download>Descargar ZIP</a>
+      <p style="margin-top:10px; color:#888;">Si tienes problemas con la descarga, revisa tu conexión o intenta con otro enlace.</p>
     </div>
-      
-    </iframe>
-    <h2>Informacion:</h2>
-    <p><strong>Informacion de la aplicacion:</strong></p>
+    <h2>Información del archivo</h2>
     <ul>
-      <li>Esta aplicacion ha sido diseñada para facilitar la descarga de contenido multimedia de diversas plataformas.</li>
-      <li>Aplicar conocimientos técnicos y creativos en el desarrollo de software para resolver una necesidad actual del mercado digital.</li>
-      <li>Fomentar el trabajo en equipo y la experiencia profesional en el ámbito del desarrollo de software.</li>
-    </ul>
-    <p><strong>informaciion Específica:</strong></p>
-    <ul>
-      <li>Analizar las necesidades del usuario respecto a las funciones esperadas en una aplicación de descarga multimedia.</li>
-      <li>Soporte para múltiples tipos de archivos y extensiones (MP3, MP4, etc.).</li>
-      <li>clave como (en proceso):</li>
-      <ul>
-        <li>Descarga por URL</li>
-        <li>Selección de calidad de video/audio</li>
-        <li>Compatibilidad con múltiples formatos</li>
-        <li>Historial y gestión de descargas</li>
-      </ul>
+      <li><strong>Nombre:</strong> Ez download (main.exe)</li>
+      <li><strong>Tamaño:</strong> 184 MB</li>
+      <li><strong>Subido:</strong> 7 de julio de 2025</li>
+      <li><strong>Descripción:</strong> Archivo base principal para la descarga.</li>
     </ul>
     <div class="codigo-fuente">
-      &lt;!-- CÓDIGO FUENTE DE LA PÁGINA --&gt;<br>
+      &lt;!-- CÓDIGO FUENTE DE LA PÁGINA DE DESCARGA --&gt;<br>
       &lt;!DOCTYPE html&gt;<br>
       &lt;html lang="es"&gt;<br>
       &lt;head&gt;<br>
@@ -152,6 +135,3 @@
       &lt;/body&gt;<br>
       &lt;/html&gt;
     </div>
-  </div>
-</body>
-</html>

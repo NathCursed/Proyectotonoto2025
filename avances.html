@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ez Download - Avances</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #f4f6fa;
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      color: #222;
+    }
+    .navbar {
+      width: 100%;
+      background: #1a237e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 18px 28px;
+      font-weight: 500;
+      font-size: 1.1em;
+      transition: background 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
+      border-bottom: 3px solid transparent;
+    }
+    .navbar a:hover {
+      background: #283593;
+      color: #ffffff;
+      border-bottom: 3px solid #ffffff;
+      transform: translateY(-4px) scale(1.07);
+      box-shadow: 0 4px 16px rgba(40,53,147,0.18);
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 40px 32px 32px 32px;
+    }
+    .centrado {
+      text-align: center;
+    }
+    h1 {
+      color: #1a237e;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #283593;
+      margin-top: 32px;
+      font-size: 2em;
+    }
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.7;
+      color: #333;
+    }
+    .avance-lista {
+      margin-top: 24px;
+      margin-bottom: 32px;
+    }
+    .etapa {
+      background: #e8eaf6;
+      border-left: 5px solid #283593;
+      padding: 18px 24px;
+      margin-bottom: 18px;
+      border-radius: 6px;
+    }
+    .codigo-fuente {
+      background: #23272e;
+      color: #e3e3e3;
+      border-radius: 8px;
+      padding: 24px;
+      margin-top: 40px;
+      font-size: 0.98em;
+      overflow-x: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      white-space: pre;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 18px 4vw; }
+      .navbar a { padding: 12px 10px; font-size: 1em; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="versiones.html" target="_blank" rel="noopener noreferrer">Versiones</a>
+    <a href="links.html" target="_blank" rel="noopener noreferrer">Links</a>
+    <a href="avances.html" target="_blank" rel="noopener noreferrer">Avances</a>
+    <a href="aplicacion.html" target="_blank" rel="noopener noreferrer">Aplicación</a>
+    <a href="descarga.html" target="_blank" rel="noopener noreferrer">Descarga</a>
+  </nav>
+  <div class="container">
+    <div class="centrado">
+      <h1>Avances del Proyecto</h1>
+      <p><strong>Seguimiento y progreso de Ez Download</strong></p>
+      <p>Consulta aquí los avances más recientes en el desarrollo de la aplicación y la web.</p>
+    </div>
+    <h2>Etapas y Logros</h2>
+    <div class="avance-lista">
+      <div class="etapa">
+        <strong>1. Análisis y Diseño</strong>
+        <ul>
+          <li>Definición de requerimientos funcionales y no funcionales.</li>
+          <li>Diseño de la interfaz de usuario (UI) para web y aplicación.</li>
+          <li>Selección de tecnologías y herramientas de desarrollo.</li>
+        </ul>
+      </div>
+      <div class="etapa">
+        <strong>2. Desarrollo Inicial</strong>
+        <ul>
+          <li>Implementación de la estructura básica de la web.</li>
+          <li>Creación de la navegación y secciones principales.</li>
+          <li>Desarrollo de la lógica de descarga de archivos.</li>
+        </ul>
+      </div>
+      <div class="etapa">
+        <strong>3. Pruebas y Mejoras</strong>
+        <ul>
+          <li>Pruebas de funcionalidad y corrección de errores.</li>
+          <li>Optimización de la experiencia de usuario.</li>
+          <li>Mejoras visuales y de rendimiento.</li>
+        </ul>
+      </div>
+      <div class="etapa">
+        <strong>4. Próximos Pasos</strong>
+        <ul>
+          <li>Integración de nuevas fuentes de descarga.</li>
+          <li>Desarrollo de la versión móvil de la aplicación.</li>
+          <li>Implementación de historial y gestión avanzada de descargas.</li>
+        </ul>
+      </div>
+    </div>
+    <h2>Galería de Avances</h2>
+    <p>A continuación, se muestran capturas de pantalla y ejemplos del progreso realizado:</p>
+    <div class="centrado">
+      <img src="img/avance1.png" alt="Avance 1" style="max-width:90%;margin:18px 0;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+      <img src="img/avance2.png" alt="Avance 2" style="max-width:90%;margin:18px 0;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+    </div>
+    <div class="codigo-fuente">
+      &lt;!-- CÓDIGO FUENTE DE LA SECCIÓN AVANCES --&gt;<br>
+      &lt;!DOCTYPE html&gt;<br>
+      &lt;html lang="es"&gt;<br>
+      &lt;head&gt;<br>
+      &nbsp;&nbsp;...<br>
+      &lt;/head&gt;<br>
+      &lt;body&gt;<br>
+      &nbsp;&nbsp;&lt;nav class="navbar"&gt;...&lt;/nav&gt;<br>
+      &nbsp;&nbsp;&lt;div class="container"&gt;...&lt;/div&gt;<br>
+      &lt;/body&gt;<br>
+      &lt;/html&gt;
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redes Sociales - Ez Download</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #f4f6fa;
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      color: #222;
+    }
+    .navbar {
+      width: 100%;
+      background: #1a237e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 18px 28px;
+      font-weight: 500;
+      font-size: 1.1em;
+      transition: background 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
+      border-bottom: 3px solid transparent;
+    }
+    .navbar a:hover {
+      background: #283593;
+      color: #ffffff;
+      border-bottom: 3px solid #ffffff;
+      transform: translateY(-4px) scale(1.07);
+      box-shadow: 0 4px 16px rgba(40,53,147,0.18);
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      padding: 40px 32px 32px 32px;
+      text-align: center;
+    }
+    h1 {
+      color: #1a237e;
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    .social-links {
+      margin: 30px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      align-items: center;
+    }
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.15em;
+      text-decoration: none;
+      color: #283593;
+      background: #f4f6fa;
+      border-radius: 8px;
+      padding: 12px 24px;
+      transition: background 0.2s, color 0.2s;
+      box-shadow: 0 2px 8px rgba(40,53,147,0.07);
+    }
+    .social-link:hover {
+      background: #e8eaf6;
+      color: #1a237e;
+    }
+    .social-link img {
+      width: 28px;
+      height: 28px;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 18px 4vw; }
+      .navbar a { padding: 12px 10px; font-size: 1em; }
+      .social-link { font-size: 1em; padding: 10px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="versiones.html">Versiones</a>
+    <a href="links.html">Links</a>
+    <a href="avances.html">Avances</a>
+    <a href="aplicacion.html">Aplicación</a>
+    <a href="descarga.html">Descarga</a>
+  </nav>
+  <div class="container">
+    <h1>Redes Sociales y Contacto</h1>
+    <div class="social-links">
+      <a class="social-link" href="https://github.com/" target="_blank" rel="noopener">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        GitHub
+      </a>
+      <a class="social-link" href="https://facebook.com/" target="_blank" rel="noopener">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
+        Facebook
+      </a>
+      <a class="social-link" href="https://twitter.com/" target="_blank" rel="noopener">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" />
+        Twitter
+      </a>
+      <a class="social-link" href="https://instagram.com/" target="_blank" rel="noopener">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+        Instagram
+      </a>
+      <a class="social-link" href="mailto:contacto@ezdownload.com">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Correo" />
+        Correo Electrónico
+      </a>
+    </div>
+    <p style="color:#888; margin-top:24px;">¡Síguenos para más actualizaciones y soporte!</p>
+  </div>
+</body>
+</html>
